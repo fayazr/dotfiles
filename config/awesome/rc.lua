@@ -101,20 +101,6 @@ memwidget = widget({ type = "textbox" })
 vicious.register(memwidget, vicious.widgets.mem, "$1%", 13)
 -- }}}
 
--- {{{ Battery widget
--- Initialize widget
-batwidget = awful.widget.progressbar()
-batwidget:set_width(15)
-batwidget:set_height(20)
-batwidget:set_vertical(true)
-batwidget:set_background_color("#494B4F")
-batwidget:set_border_color(nil)
-batwidget:set_color("#AECF96")
-batwidget:set_gradient_colors({ "#FF0000", "#FFFF00", "#00FF00" })
--- Register widget
-vicious.register(batwidget, vicious.widgets.bat, "$2", 61, "BAT0")
--- }}}
-
 -- {{{ Disk widget
 diskwidget = widget({ type = 'textbox' })
 diskwidget.text = "df"
