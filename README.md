@@ -4,6 +4,7 @@ Set of my dotfiles.
 -	__not-ready__ - folder, contains confs, not ready for usage (e.g. if one needs password).
 	-	__add-to-bashrc__ - something that needs to be added to `.bashrc`.
 	-	__muttrc-gmail-imap.txt__ for mutt, gmail via imap.
+	-	__muttrc-yandex-imap.txt__ for mutt, yandex via imap.
 	-	__vsftpd.conf__ for vsftpd ftp server, place in `/etc`.
 
 -	__XTerm__ - resource file for `xterm`.
@@ -18,5 +19,7 @@ Set of my dotfiles.
 -	__local/share/luakit__ - userscripts for `luakit`.
 -	__mutt-colors-solarized__ - folder with solarized colorscheme for `mutt`.
 -	__profile__ - for login shell.
+-	__tigrc__ config for `tig` git text-ui interface.
 -	__vimrc__ moved to `dotvim` repo.
 -	__xinitrc__ - X Server startup script.
+
